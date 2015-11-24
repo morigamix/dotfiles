@@ -1,0 +1,28 @@
+[color]
+  diff   = auto
+  status = auto
+  branch = auto
+  ui     = always
+
+[core]
+  excludesfile = ~/.gitignore_global
+  pager = "lv -c -Ou8"
+
+[alias]
+  co = checkout
+  ci = commit -v
+  st = status
+  di = diff
+  cb = branch --contains=HEAD
+
+[push]
+  default = current
+
+[http]
+  sslVerify = false
+
+[merge]
+  ff = false
+
+[pull]
+  rebase = true
