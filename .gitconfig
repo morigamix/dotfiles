@@ -6,7 +6,6 @@
 
 [core]
   excludesfile = ~/.gitignore_global
-  pager = "lv -c -Ou8"
 
 [alias]
   co = checkout
