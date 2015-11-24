@@ -30,6 +30,9 @@
 
     " 256色対応
     set t_Co=256
+
+    " カラースキーマ
+    " curl https://raw.githubusercontent.com/brafales/vim-desert256/master/colors/desert256.vim > .vim/colors/desert256.vim
     colorscheme desert256
     syntax on
 
