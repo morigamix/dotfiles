@@ -15,3 +15,11 @@ $ curl https://raw.githubusercontent.com/brafales/vim-desert256/master/colors/de
 $ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh
 $ sh ./install.sh
 ```
+
+## tmux Setup
+
+Ex. Homebrew in Mac.
+
+```
+$ brew install tmux
+```
