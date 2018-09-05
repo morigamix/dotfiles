@@ -162,6 +162,15 @@
 
 " -------------------------------------------------------------------------
 "
+" vim-vue
+"
+" -------------------------------------------------------------------------
+
+    " 正しくハイライトさせるために必要
+    autocmd FileType vue syntax sync fromstart
+
+" -------------------------------------------------------------------------
+"
 " NeoBundle（プラグイン管理）
 "
 " -------------------------------------------------------------------------
@@ -188,6 +197,7 @@
     NeoBundle 'plasticboy/vim-markdown'
     NeoBundle 'kannokanno/previm'
     NeoBundle 'tyru/open-browser.vim'
+    NeoBundle 'posva/vim-vue'
 
     call neobundle#end()
     filetype plugin indent on
